@@ -1,0 +1,123 @@
+# Online Python compiler (interpreter) to run Python online.
+# STOCK GUIDE PROGRAM
+
+print("stock guide".center(68, "-"))
+print("stock guide".upper())
+
+# Dictionary info
+info = {
+    "created by": "created by #NIKHIL BR#",
+    "worked platform": "worked platform #programiz (online compiler)#",
+    "coding language": "#coding language Python (for learners)#"
+}
+
+print(info["created by"])
+print(info["worked platform"])
+print(info["coding language"])
+
+# String methods
+p = "stockguide"
+print(p.upper())
+
+w = "! hi please give info for following !"
+print(w.title())
+print("main")
+
+# User inputs
+name = input("Enter name: ")
+age = input("Enter age: ")
+qualification = input("Enter qualification: ")
+
+print("WELCOME".center(50, "-"))
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"Qualification: {qualification}")
+
+# Trade examples (ASCII)
+trades_info = '''
+Types of Trades:
+1) Bullish
+2) Bearish
+
+Example for Bullish (Green Candlestick):
+
+     |
+    | |
+    | |                     _
+    | |                  |   |
+    | |                 | |  |
+    | |        |     |  | |  |
+     |   |    | |   | |  |  _|
+        | |   | |   | |
+         |     |     |
+(Buyers take control)
+
+Example for Bearish (Red Candlestick):
+
+       |             |      _
+      | |       |   | |  |   |
+       |   |   | |   |  | |  |
+   |      | |  | |      | |  |
+  | |      |    |       | |  |
+  | |                    |  _|
+  | |
+   |
+(Sellers take control)
+'''
+print(trades_info)
+
+# Technical Analysis
+technical_analysis = '''
+------------------- TECHNICAL ANALYSIS -------------------
+
+   |
+  | |
+  | |
+  | |
+   |                                 |   |
+     |                           |  | | | |
+    | |              |          | |  |   | |
+      | |       |   | |  |      | |        | |
+       |   |   | |   |  | |     | |         |
+          | |  | |      | |     | |
+           |    |       | |   |  |
+                         |   | |
+                              |
+
+----- Analyzing market using candlesticks -----
+                     OR
+----- Analyzing market using trade types -----
+'''
+print(technical_analysis.upper())
+
+# Fundamental Analysis
+print("FundAMENTAL ANALYSIS".center(65, "-"))
+
+fundamental = {
+    "definition": "Fundamental analysis compares intrinsic value with market price.",
+    "good trade": "If Intrinsic Value > Market Price → Good Trade",
+    "logic": "Intrinsic Value > Market Price → BUY"
+}
+
+print(fundamental["definition"])
+print(fundamental["good trade"])
+print(fundamental["logic"])
+
+print("\nMain tips count:", len(fundamental))
+
+# Fundamental Analysis Example (ASCII Graph)
+print("\nExample trade for Fundamental Analysis:")
+
+Q = '''
+Price
+600 |        *
+500 |      *
+405 |    *
+389 |   *
+250 |  *
+100 | *
+     ----------------
+        Time →
+'''
+print(Q)
+
